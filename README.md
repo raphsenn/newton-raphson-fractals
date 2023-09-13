@@ -5,17 +5,17 @@ Newton-Raphson fractals are captivating and visually stunning representations of
 Newton fractal for $\ z^8-15z^4-16$, $\ z^{12} - 1$ and $\ z^5-1$
 
 <p float="left">
-   <img src="./rsc/z^8-15z^4-16.png" width=300 height=300>
-   <img src="./rsc/z^12-1.png" width=300 height=300>
-    <img src="./rsc/z^4-1.png" width=300 height=300>
+   <img src="./rsc/z^8-15z^4-16.png" width=200 height=200>
+   <img src="./rsc/z^12-1.png" width=200 height=200>
+    <img src="./rsc/z^4-1.png" width=200 height=200>
 </p>
 
 Newton fractal for $\ z^3 - 1$, $\ z^8 - 1$ and $\ z^3-2z-2$
 
 <p float="left">
-   <img src="./rsc/z^3-1.png" width=300 height=300>
-   <img src="./rsc/z^8-1-ppm.png" width=300 height=300>
-    <img src="./rsc/z^3-2z-2.png" width=300 height=300>
+   <img src="./rsc/z^3-1.png" width=200 height=200>
+   <img src="./rsc/z^8-1-ppm.png" width=200 height=200>
+    <img src="./rsc/z^3-2z-2.png" width=200 height=200>
 </p>
 
 ## Key Features
