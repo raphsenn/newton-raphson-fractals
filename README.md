@@ -2,6 +2,22 @@
 
 Newton-Raphson fractals are captivating and visually stunning representations of complex polynomial equations. These fractals provide an artistic and mathematical glimpse into the intricate world of complex numbers and the roots of complex polynomials.
 
+Newton fractal for $\ z^8-15z^4-16$, $\ z^{12} - 1$ and $\ z^5-1$
+
+<p float="left">
+   <img src="./rsc/z^8-15z^4-16.png" width=300 height=300>
+   <img src="./rsc/z^12-1.png" width=300 height=300>
+    <img src="./rsc/z^4-1.png" width=300 height=300>
+</p>
+
+Newton fractal for $\ z^3 - 1$, $\ z^8 - 1$ and $\ z^3-2z-2$
+
+<p float="left">
+   <img src="./rsc/z^3-1.png" width=300 height=300>
+   <img src="./rsc/z^8-1-ppm.png" width=300 height=300>
+    <img src="./rsc/z^3-2z-2.png" width=300 height=300>
+</p>
+
 ## Key Features
 - **Custom Polynomial Equations:** You can define your own complex polynomial equation, denoted as f(z), within the program. This equation is at the heart of the fractal generation process, allowing you to explore a wide range of mathematical expressions and artistic possibilities.
 
