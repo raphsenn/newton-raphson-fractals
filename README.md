@@ -54,7 +54,7 @@ Creating your own Newton-Raphson fractals is a straightforward process:
 
 5. **View and Share:** The resulting fractal image will be saved as `fractal.ppm`. You can view it with any image viewer or share it with others to showcase your artistic and mathematical exploration.
 
-## Getting Started
+## Getting Started with make
 To create captivating Newton-Raphson fractal images with this program, follow these simple steps to get started:
 
 1. **Clone the Repository:** Begin by cloning this repository to your local machine using the following command:
@@ -80,6 +80,42 @@ Complex df(Complex z) {
 5. **Build the Program:** Use the provided Makefile to build the program. Run the following command:
 ```js
 make all
+```
+
+6. **Generate the Fractal:** Execute the program to generate the fractal image based on your custom polynomial equation:
+```js
+./main
+```
+7. **View and Share:** The generated fractal image will be saved as **fractal.ppm** in the project directory. You can open and view it with any image viewer software. Feel free to share your artistic and mathematical creations with others.
+
+## Getting Started without make
+To create captivating Newton-Raphson fractal images with this program, follow these simple steps to get started:
+
+1. **Clone the Repository:** Begin by cloning this repository to your local machine using the following command:
+```js
+git clone https://github.com/raphsenn/newton-fractals.git
+```
+2. **Navigate to the Directory:** Move to the project directory by entering:
+```js
+cd Newton-Raphson-Fractals
+```
+3. **Define Your Polynomial:** Open the main.cpp file within the project directory. Here, you can define your complex polynomial equation f(z) and its derivative df(z) inside the provided functions Complex f(Complex z) and Complex df(Complex z). Customize these functions with your own polynomial expressions as desired.
+```js
+Complex f(Complex z) {
+    return z * z * z - 1; // Define your complex polynomial here (represends z^3 - 1)
+}
+
+Complex df(Complex z) {
+    return Complex(3, 0) * (z * z); // Define the derivative of your polynomial here (represends 3 * z^2)
+}
+```
+4. **Save Your Changes:** Save the modifications you made to main.cpp.
+
+5. **Build the Program:** Here's the order of commands to compile the main program without using make, assuming you have the source files complex.cpp, complex.h and main.cpp:
+```js
+g++ -c complex.cpp
+g++ -c main.cpp
+g++ complex.o main.o -o main
 ```
 
 6. **Generate the Fractal:** Execute the program to generate the fractal image based on your custom polynomial equation:
