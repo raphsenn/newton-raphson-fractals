@@ -123,3 +123,19 @@ g++ complex.o main.o -o main
 ./main
 ```
 7. **View and Share:** The generated fractal image will be saved as **fractal.ppm** in the project directory. You can open and view it with any image viewer software. Feel free to share your artistic and mathematical creations with others.
+
+## Error solving
+If you encounter an error message similar to the following:
+```js
+User
+g++ -c complex.cpp
+cc   main.o complex.o   -o main
+/usr/bin/ld: complex.o: in function `abs(Complex)':
+complex.cpp:(.text+0x7a4): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status
+```
+To resolve this issue, you need to link the math library explicitly when compiling your program. You can do this by adding the -lm flag to your compile command, like this:
+```js
+g++ main.o complex.o -o main -lm
+```
+
