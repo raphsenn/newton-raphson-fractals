@@ -48,7 +48,7 @@ Creating your own Newton-Raphson fractals is a straightforward process:
 
 1. **Define Your Polynomial:** In the program, specify your complex polynomial equation `f(z)` as per your creative or mathematical goals.
 
-3. **Automatic Derivative:** In the program, specify your complex polynomial derivative `df(z)` of your equation.
+3. **Automatic Derivative:** In the program, specify your complex polynomial derivative `df(z)` of your polynomial.
 
 4. **Generate Fractal:** Run the program, and it will iterate through complex numbers, applying the Newton-Raphson method to find roots and assign colors to pixels.
 
