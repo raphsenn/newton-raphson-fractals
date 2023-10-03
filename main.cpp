@@ -15,7 +15,6 @@ Complex df (Complex z) {
 
 void print_image(const char *filename) {
     int iter = 100;
-    int shift = 5;
     double tol = 0.0001;
     int W = 500;
     int H = 500;
