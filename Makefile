@@ -1,15 +1,21 @@
+CXX = g++
+CXXFLAGS = -Wall -Wextra -std=c++11
+LDFLAGS =
 
-all: main
+SRCS = complex.cpp main.cpp
+OBJS = $(SRCS:.cpp=.o)
+EXEC = main
+CLEAN_FILES = $(EXEC) fractal.ppm $(OBJS)
 
-main: complex.o main.o 
+all: $(EXEC)
 
-complex.o: complex.cpp
-	g++ -c complex.cpp
+$(EXEC): $(OBJS)
+	$(CXX) $(CXXFLAGS) $(LDFLAGS) $(OBJS) -o $(EXEC)
 
-main.o: main.cpp
-	g++ -c main.cpp
+%.o: %.cpp
+	$(CXX) $(CXXFLAGS) -c $< -o $@
 
 clean:
-	rm -f main
-	rm -f fractal.ppm
-	rm -f *.o
+	rm -f $(CLEAN_FILES)
+
+.PHONY: all clean
