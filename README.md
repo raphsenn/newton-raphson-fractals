@@ -59,11 +59,11 @@ To create captivating Newton-Raphson fractal images with this program, follow th
 
 1. **Clone the Repository:** Begin by cloning this repository to your local machine using the following command:
 ```js
-git clone https://github.com/raphsenn/newton-fractals.git
+git clone https://github.com/raphsenn/newton-raphson-fractals.git
 ```
 2. **Navigate to the Directory:** Move to the project directory by entering:
 ```js
-cd Newton-Raphson-Fractals
+cd newton-raphson-fractals
 ```
 3. **Define Your Polynomial:** Open the main.cpp file within the project directory. Here, you can define your complex polynomial equation f(z) and its derivative df(z) inside the provided functions Complex f(Complex z) and Complex df(Complex z). Customize these functions with your own polynomial expressions as desired.
 ```js
@@ -97,7 +97,7 @@ git clone https://github.com/raphsenn/newton-raphson-fractals.git
 ```
 2. **Navigate to the Directory:** Move to the project directory by entering:
 ```js
-cd Newton-Raphson-Fractals
+cd newton-raphson-fractals
 ```
 3. **Define Your Polynomial:** Open the main.cpp file within the project directory. Here, you can define your complex polynomial equation f(z) and its derivative df(z) inside the provided functions Complex f(Complex z) and Complex df(Complex z). Customize these functions with your own polynomial expressions as desired.
 ```js
