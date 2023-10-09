@@ -93,7 +93,7 @@ To create captivating Newton-Raphson fractal images with this program, follow th
 
 1. **Clone the Repository:** Begin by cloning this repository to your local machine using the following command:
 ```js
-git clone https://github.com/raphsenn/newton-fractals.git
+git clone https://github.com/raphsenn/newton-raphson-fractals.git
 ```
 2. **Navigate to the Directory:** Move to the project directory by entering:
 ```js
